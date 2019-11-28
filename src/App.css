@@ -20,3 +20,61 @@
 .App-link {
   color: #09d3ac;
 }
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  /*background-color: lightgrey;*/
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #nav-links {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  text-align: right;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#about {
+  margin-top: 1em;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  color: white;
+}
+
+@media screen {
+  .icon {
+    /*visibility: hidden;*/
+  }
+}
+
+
+.landing {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20vh;
+  width: 80vw;
+}
+
+#greeting {
+  font-size: 2em;
+}
