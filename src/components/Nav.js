@@ -15,7 +15,8 @@ const Nav = () => {
 		<div className="topnav">
 		  <a href="#home" className="active"></a>
 		  <div id="nav-links">
-		    <Link to="/">About</Link>
+		    <Link to="/">Home</Link>
+		    <Link to="/about">About</Link>
 		    <Link to="/blog">Blog</Link>
 		    <Link to="/contact">Contact</Link>
 		  </div>

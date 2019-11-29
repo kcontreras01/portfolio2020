@@ -51,7 +51,7 @@
 }
 
 #about {
-  margin-top: 1em;
+  font-size: 1.25em;
 }
 
 /* Style the active link (or home/logo) */
@@ -66,17 +66,17 @@
 }
 
 
-.landing {
-  height: 90vh;
+.page-container {
   display: flex;
-  justify-content: center;
+  text-align: center;
   margin: auto;
   margin-top: 20vh;
   width: 80vw;
+  flex-direction: column;
 }
 
-#greeting {
-  font-size: 2em;
+.page-container h1 {
+  margin: 0;
 }
 
 .primary-sticky-nav-author, .primary-sticky-nav-author-element {
