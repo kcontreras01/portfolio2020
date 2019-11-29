@@ -26,12 +26,6 @@ export default class Blog extends Component {
 					<section className="primary-sticky-nav" key={article.id}>
 						<div className="primary-sticky-nav-element">
 							<div className="article-header-container">
-								<img
-									src={article.user.profile_image_90}
-									alt="#"
-									className="primary-sticky-nav-profile-image"
-								/>
-
 								<div className="article-header">
 									<a
 										href={article.url}
@@ -53,7 +47,7 @@ export default class Blog extends Component {
 							<div>
 								<div className="primary-sticky-nav-author-follow article-footer">
 									<div className="article-icon-container">
-										<FontAwesomeIcon icon="heart" />
+										<FontAwesomeIcon icon="heart" className="pink"/>
 										<span style={{ margin: "3px" }}>
 											{article.positive_reactions_count}
 										</span>

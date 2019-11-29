@@ -1,11 +1,53 @@
-import React from 'react'
+import React, {Component} from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faDev, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-const Contact = () => {
-	return (
+export default class Contact extends Component {
+	constructor() {
+		super() 
+
+		this.state = {
+			contactLinks: [
+				{
+					href : "mailto:kiara.p.contreras@gmail.com",
+					alt  : "email",
+					icon : "envelope"
+				},
+				{
+					href : "github.com/kcontreras01",
+					alt  : "github",
+					icon : faGithub
+				},
+				{
+					href : "https://dev.to/kiarathedev",
+					alt  : "dev.to",
+					icon : faDev
+				},
+				{
+					href : "https://twitter.com/kiarathedev",
+					alt  : "twitter",
+					icon : faTwitter
+				},
+				{
+					href : "https://www.linkedin.com/in/kiaracontreras/",
+					alt  : "linkedin",
+					icon : faLinkedinIn
+				},
+			]
+		}
+	}
+	
+	render() {
+		return (
 		<div className="page-container">
-			<p>Contact</p>
+			{this.state.contactLinks.map(link => (
+				<div className="article-icon-container" key={link.alt}>
+					<a href={link.href} target="_blank" rel="noopener noreferrer" alt={link.alt}>
+						<FontAwesomeIcon icon={link.icon} className="pink"/>
+					</a>	
+				</div>
+				))}
 		</div>
 		)
+	}
 }
-
-export default Contact

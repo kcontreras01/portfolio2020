@@ -7,10 +7,9 @@ import About from './components/About';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import { library } from '@fortawesome/fontawesome-svg-core';
-// import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faHeart, faComments } from '@fortawesome/free-solid-svg-icons';
+import { faHeart, faComments, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faHeart, faComments)
+library.add(faHeart, faComments, faEnvelope)
 
 function App() {
   return (

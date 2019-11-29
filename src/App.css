@@ -28,11 +28,7 @@ body {
     color: #F4ACB7
   }
 
-  .active {
-    color: #F4ACB7;
-  }
-
-  #name {
+  .pink {
     color: #F4ACB7;
   }
 
@@ -43,6 +39,11 @@ body {
     margin-top: 20vh;
     width: 80vw;
     flex-direction: column;
+  }
+
+  #landing-desc {
+    font-size: .90em;
+    margin: 0;
   }
 
   .about-container {
@@ -73,29 +74,18 @@ body {
   }
 
   .primary-sticky-nav-element {
-    display: block;
     padding: 10px 13px;
     font-size: 0.9em;
-    font-weight: bold;
-    background: white;
-    /* margin-bottom: 10px;
-  margin-left: 10px;*/
     border: 1px solid #d6d6d6;
     box-shadow: 1px 1px 0px #bababa;
-    color: #0a0a0a;
-    /*width: 85%;*/
     border-radius: 3px;
-    margin: 10px;
+    margin: 1.5em;
   }
 
   .primary-sticky-nav-element:hover {
     box-shadow: 4px 4px 0px #bababa;
     border-radius: 4px;
     border: 1px solid #c3c3c3;
-  }
-
-  #main-card {
-    height: 40vh;
   }
 
   .primary-sticky-nav
@@ -120,18 +110,14 @@ body {
 
   .save-button {
     color: white;
-    background: #0d36ff;
-    font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed",
-      "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed",
-      "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold",
-      "HelveticaNeue", "Helvetica Neue", "TeXGyreHerosCnBold", "Helvetica",
-      "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
+    background: #F4ACB7;
     -webkit-appearance: none;
     font-stretch: condensed;
     font-size: 1em;
     border: 0px;
     border-radius: 3px;
     margin-left: 1em;
+    font-weight: bold;
   }
 
   .primary-sticky-nav
