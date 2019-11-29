@@ -21,18 +21,19 @@ body {
     color: black;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-    text-align: right;
+    font-size: 1.1em;
   }
 
-  #about {
-    font-size: 1.25em;
+  .topnav a:hover {
+    color: #F4ACB7
   }
 
-  @media screen {
-    .icon {
-      /*visibility: hidden;*/
-    }
+  .active {
+    color: #F4ACB7;
+  }
+
+  #name {
+    color: #F4ACB7;
   }
 
   .page-container {
@@ -42,6 +43,18 @@ body {
     margin-top: 20vh;
     width: 80vw;
     flex-direction: column;
+  }
+
+  .about-container {
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    flex-direction: column;
+  }
+
+  .about-container a {
+    color: #F4ACB7;
+    text-decoration: none;
   }
 
   .page-container h1 {
