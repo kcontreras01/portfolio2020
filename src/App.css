@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* PHONES */
 @media only screen and (max-width: 600px) {
   /* Style the navigation menu */

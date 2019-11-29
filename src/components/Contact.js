@@ -2,9 +2,9 @@ import React from 'react'
 
 const Contact = () => {
 	return (
-		<React.Fragment>
-			contact
-		</React.Fragment>
+		<div className="page-container">
+			<p>Contact</p>
+		</div>
 		)
 }
 
