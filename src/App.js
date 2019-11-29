@@ -6,6 +6,11 @@ import Landing from './components/Landing';
 import About from './components/About';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faHeart, faComments, faBolt, faLayerGroup } from '@fortawesome/free-solid-svg-icons';
+
+library.add(fab, faHeart, faComments, faBolt, faLayerGroup)
 
 function App() {
   return (
