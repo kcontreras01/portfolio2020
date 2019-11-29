@@ -2,13 +2,14 @@
 @media only screen and (max-width: 600px) {
   /* Style the navigation menu */
   .topnav {
-    overflow: hidden;
-    /*background-color: lightgrey;*/
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 1em;
   }
 
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #nav-links {
-    display: none;
+    display: inline-block;
   }
 
   /* Style navigation menu links */
@@ -17,25 +18,11 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    display: block;
     text-align: right;
-  }
-
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
   }
 
   #about {
     font-size: 1.25em;
-  }
-
-  /* Style the active link (or home/logo) */
-  .active {
-    color: white;
   }
 
   @media screen {
