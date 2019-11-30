@@ -233,11 +233,16 @@ body {
 
   .page-container {
     margin-top: 10vh;
+    font-size: x-large;
   }
 
   .overflow-container {
     overflow: scroll;
     height: 70vh;
+  }
+
+  .about-container {
+    font-size: x-large;
   }
 }
 
