@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
 	return (
-		<div className="about-container overflow-container">
-			<p className="fade-in">
+		<div className="about-container overflow-container fade-in">
+			<p>
 				Kiara Contreras is a Web Developer at S’well with a background in
 				technology, customer service, and retail. Her role as an Apple Genius
 				sparked her curiosity about how we interact with our devices and she
@@ -11,7 +11,7 @@ const About = () => {
 				Assembly Bootcamp Developer.
 			</p>
 
-			<p className="fade-in fade-in-2">
+			<p>
 				Kiara specializes in Full Stack Development technologies and loves React. She regularly
 				volunteers at{" "}
 				<a
@@ -36,7 +36,7 @@ const About = () => {
 				and believes that our greatest resource is our peers.
 			</p>
 
-			<p className="fade-in fade-in-3">
+			<p>
 				In her free time you can find her singing Barbershop music with her
 				Quartet,{" "}
 				<a

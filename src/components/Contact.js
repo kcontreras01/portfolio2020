@@ -39,7 +39,7 @@ export default class Contact extends Component {
 
 	render() {
 		return (
-			<div className="contact-icon-container">
+			<div className="contact-icon-container fade-in">
 				{this.state.contactLinks.map(link => (
 					<a href={link.href} target="_blank" rel="noopener noreferrer" alt={link.alt} key={link.alt}>
 						<FontAwesomeIcon icon={link.icon}/>
