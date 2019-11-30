@@ -14,7 +14,7 @@ export default class Contact extends Component {
 					icon : "envelope"
 				},
 				{
-					href : "github.com/kcontreras01",
+					href : "https://github.com/kcontreras01",
 					alt  : "github",
 					icon : faGithub
 				},
