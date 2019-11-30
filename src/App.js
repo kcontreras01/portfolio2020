@@ -20,9 +20,9 @@ function App() {
           <Route path="/" exact component={Landing}/>
           <Route path="/about" exact component={About}/>
           <Route path="/blog" component={Blog}/>
-          <Route path="/contact" component={Contact}/>
         </Switch>
       </Router>
+        <Contact />
     </React.Fragment>
   );
 }

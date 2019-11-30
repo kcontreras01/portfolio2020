@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
 	return (
-		<div className="about-container">
+		<div className="about-container overflow-container">
 			<p>
 				Kiara Contreras is a Web Developer at S’well with a background in
 				technology, customer service, and retail. Her role as an Apple Genius

@@ -36,18 +36,16 @@ export default class Contact extends Component {
 			]
 		}
 	}
-	
+
 	render() {
 		return (
-		<div className="page-container">
-			{this.state.contactLinks.map(link => (
-				<div className="article-icon-container" key={link.alt}>
-					<a href={link.href} target="_blank" rel="noopener noreferrer" alt={link.alt}>
-						<FontAwesomeIcon icon={link.icon} className="pink"/>
+			<div className="contact-icon-container">
+				{this.state.contactLinks.map(link => (
+					<a href={link.href} target="_blank" rel="noopener noreferrer" alt={link.alt} key={link.alt}>
+						<FontAwesomeIcon icon={link.icon}/>
 					</a>	
-				</div>
 				))}
-		</div>
+			</div>
 		)
 	}
 }
