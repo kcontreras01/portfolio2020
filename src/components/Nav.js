@@ -3,13 +3,23 @@ import {NavLink} from 'react-router-dom';
 
 const Nav = () => {
 	return (
-		<div className="topnav">
+		<React.Fragment>
+		<div className="topnav mobile-nav">
 		  <div id="nav-links">
 		    <NavLink to="/" exact={true}>Home</NavLink>
 		    <NavLink to="/about">About</NavLink>
 		    <NavLink to="/blog">Blog</NavLink>
 		  </div>
 		</div>
+
+		<div className="large-nav">
+		  <div id="nav-links">
+		    <NavLink to="/" exact={true}>Home</NavLink>
+		    <NavLink to="/about">About</NavLink>
+		    <NavLink to="/blog">Blog</NavLink>
+		  </div>
+		</div>
+		</React.Fragment>
 	)
 }
 

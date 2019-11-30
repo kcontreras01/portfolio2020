@@ -15,7 +15,7 @@ function App() {
   return (
     <React.Fragment>
       <Router>
-        <Nav />
+        <Nav/>
         <Switch>
           <Route path="/" exact component={Landing}/>
           <Route path="/about" exact component={About}/>
