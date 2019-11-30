@@ -24,7 +24,7 @@ export default class Blog extends Component {
 			<React.Fragment>
 				<div className="overflow-container">
 					{this.state.articles.map(article => (
-						<section className="primary-sticky-nav" key={article.id}>
+						<section className="primary-sticky-nav" key={article.id}  className="fade-in">
 							<a
 								href={article.url}
 								target="_blank"
