@@ -1,4 +1,6 @@
 import React from "react";
+import Contact from '../contact/Contact';
+import './about.css';
 
 const About = () => {
 	return (
@@ -12,13 +14,14 @@ const About = () => {
 			</p>
 
 			<p>
-				Kiara specializes in Full Stack Development technologies and loves React. She regularly
+				Kiara specializes in Frontend technologies and loves React. She regularly
 				volunteers at{" "}
 				<a
 					href="https://www.nanohackers.org/"
 					alt="Nano Hackers Academy site"
 					target="_blank"
 					rel="noopener noreferrer"
+					className="purple"
 				>
 					Nano Hackers Academy
 				</a>
@@ -29,6 +32,7 @@ const About = () => {
 					alt="Brooklyn Animal Action site"
 					target="_blank"
 					rel="noopener noreferrer"
+					className="purple"
 				>
 					Brooklyn Animal Action
 				</a>
@@ -44,12 +48,16 @@ const About = () => {
 					alt="repeat offenders quartet site"
 					target="_blank"
 					rel="noopener noreferrer"
+					className="purple"
 				>
 					Repeat Offenders
 				</a>
 				, watching Youtube videos, and taking long walks, constantly on the
 				lookout for cats.
 			</p>
+
+			<Contact />
+			
 		</div>
 	);
 };
