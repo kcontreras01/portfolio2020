@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from './Contact';
 
 const About = () => {
 	return (
@@ -12,7 +13,7 @@ const About = () => {
 			</p>
 
 			<p>
-				Kiara specializes in Full Stack Development technologies and loves React. She regularly
+				Kiara specializes in Frontend technologies and loves React. She regularly
 				volunteers at{" "}
 				<a
 					href="https://www.nanohackers.org/"
@@ -50,6 +51,9 @@ const About = () => {
 				, watching Youtube videos, and taking long walks, constantly on the
 				lookout for cats.
 			</p>
+
+			<Contact />
+			
 		</div>
 	);
 };

@@ -5,11 +5,6 @@ import Nav from './components/Nav';
 import Landing from './components/Landing';
 import About from './components/About';
 import Blog from './components/Blog';
-import Contact from './components/Contact';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faHeart, faComments, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-
-library.add(faHeart, faComments, faEnvelope)
 
 function App() {
   return (
@@ -22,7 +17,6 @@ function App() {
           <Route path="/blog" component={Blog}/>
         </Switch>
       </Router>
-        <Contact />
     </React.Fragment>
   );
 }
