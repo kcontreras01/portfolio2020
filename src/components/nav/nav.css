@@ -1,0 +1,10 @@
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.topnav a:hover, #nav-links a.active {
+  color: #8a2666;
+}

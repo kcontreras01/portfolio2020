@@ -1,0 +1,18 @@
+.blog-card {
+	min-width: 275px;
+ 	font-family: 'Lora', serif;
+ 	margin: 1em;
+}
+
+.blog-card a {
+  color: black;
+}
+
+.blog-tags {
+  margin-bottom: 12px
+}
+
+.blog-button {
+  background: #8a2666;
+  color: white;
+}

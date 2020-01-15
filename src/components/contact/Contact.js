@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faDev, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import './contact.css';
 
 export default class Contact extends Component {
 	constructor() {
@@ -11,7 +13,7 @@ export default class Contact extends Component {
 				{
 					href : "mailto:kiara.p.contreras@gmail.com",
 					alt  : "email",
-					icon : "envelope"
+					icon : faEnvelope
 				},
 				{
 					href : "https://github.com/kcontreras01",
@@ -39,10 +41,13 @@ export default class Contact extends Component {
 
 	render() {
 		return (
-			<div className="contact-icon-container fade-in">
+			<div className="contact-icon-container">
 				{this.state.contactLinks.map(link => (
-					<a href={link.href} target="_blank" rel="noopener noreferrer" alt={link.alt} key={link.alt}>
-						<FontAwesomeIcon icon={link.icon}/>
+					<a 
+					className="purple"
+					href={link.href} target="_blank" rel="noopener noreferrer" alt={link.alt} key={link.alt}>
+						<FontAwesomeIcon icon={link.icon} className="contact-icon"/>
+						{link.alt}
 					</a>	
 				))}
 			</div>
