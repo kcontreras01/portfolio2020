@@ -10,14 +10,14 @@ const SimpleCard = ({article}) => {
     <Card className="MuiPaper-elevation3 blog-card">
       <CardContent>
         <Typography>
-        	<a href={article.url} target="_blank">{article.title}</a>
+        	<a href={article.url} target="_blank" rel="noopener noreferrer" alt="article-title">{article.title}</a>
         </Typography>
-					<Typography color="textSecondary">
+					<Typography className="purple">
 						{article.tag_list.map(tag =>  {return '#' + tag + ' '} )}
         	</Typography>
       </CardContent>
       <CardActions>
-        <Button variant="outlined" size="small" href={article.url} target="_blank">Learn More</Button>
+        <Button variant="outlined" size="small" href={article.url} target="_blank" rel="noopener noreferrer" alt="learn-more-btn">Learn More</Button>
       </CardActions>
     </Card>
   );

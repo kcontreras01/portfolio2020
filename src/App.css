@@ -1,227 +1,40 @@
-body {
-  /*font-family: 'Montserrat', sans-serif;*/
+.page-container {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  margin-top: 20vh;
+  width: 80vw;
+  flex-direction: column;
+  height: 69vh;
 }
-  .contact-icon-container {
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-  }
 
-  .contact-icon-container a {
-    text-decoration: none;
-    color: white;
-    font-size: 2em;
-  }
+.fade-in {
+  -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+  animation: 3s ease 0s normal forwards 1 fadein;
+  opacity: 0;
+}
 
-  .contact {
-    color: rgb(102, 102, 102);
-  }
+@keyframes fadein {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
 
-  .contact a {
-    color: rgb(102, 102, 102);
-  }
+.purple {
+  color: #8a2666;
+}
 
-    .page-container {
-    display: flex;
-    text-align: center;
-    margin: auto;
-    margin-top: 20vh;
-    width: 80vw;
-    flex-direction: column;
-    height: 69vh;
-  }
+a {
+  text-decoration: none;
+}
 
-  .topnav a {
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1.1em;
-  }
+.overflow-container {
+  overflow: scroll;
+}
 
-  .topnav a:hover {
-    color: #F4ACB7
-  }
+.overflow-container::-webkit-scrollbar {
+  display: none;
+}
 
-  .fade-in {
-    -webkit-animation: 3s ease 0s normal forwards 1 fadein;
-    animation: 3s ease 0s normal forwards 1 fadein;
-    opacity: 0;
-  }
-
-  @keyframes fadein {
-    0% { opacity:0; }
-    100% { opacity:1; }
-  }
-
-  .about-container {
-    display: flex;
-    margin: auto;
-    width: 80vw;
-    flex-direction: column;
-    font-family: 'Lora', serif;
-  }
-
-  .about-container a {
-    color: #F4ACB7;
-    text-decoration: none;
-  }
-
-    .primary-sticky-nav-author,
-  .primary-sticky-nav-author-element {
-    border: 1px solid #373737 !important;
-    box-shadow: 3px 4px 0px #373737 !important;
-  }
-
-  .primary-sticky-nav-author-element:hover {
-    opacity: 0.75;
-    background: #f7f7f7;
-  }
-
-  .primary-sticky-nav-element {
-    padding: 10px 13px;
-    font-size: 0.9em;
-    border: 1px solid #d6d6d6;
-    box-shadow: 1px 1px 0px #bababa;
-    border-radius: 3px;
-    margin: 1.5em;
-  }
-
-  .primary-sticky-nav-element:hover {
-    box-shadow: 4px 4px 0px #bababa;
-    border-radius: 4px;
-    border: 1px solid #c3c3c3;
-  }
-
-  .primary-sticky-nav
-    .primary-sticky-nav-element
-    .primary-sticky-nav-element-details {
-    font-size: 0.8em;
-    color: #666666;
-  }
-
-  .primary-sticky-nav .primary-sticky-nav-profile-image {
-    height: 23px;
-    border-radius: 100px;
-    vertical-align: -5px;
-    margin-right: 15px;
-  }
-
-  .primary-sticky-nav .primary-sticky-nav-title {
-    padding: 8px 0px 9px;
-    margin-left: 15px;
-    font-weight: bold;
-  }
-
-  .primary-sticky-nav
-    .primary-sticky-nav-author
-    .primary-sticky-nav-author-follow
-    button {
-    font-size: 1em;
-    border: 0px;
-    border-radius: 3px;
-  }
-
-  .primary-sticky-nav
-    .primary-sticky-nav-author
-    .primary-sticky-nav-author-summary {
-    font-weight: 400;
-    color: #666666;
-    padding: 10px 0px 5px;
-    font-style: italic;
-    font-size: 0.88em;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  .overflow-container {
-    overflow: scroll;
-  }
-
-  .overflow-container::-webkit-scrollbar {
-    display: none;
-  }
-
-  .article-header {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .article-header h4 {
-    margin: 0;
-  }
-
-  .article-title {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    color: black;
-    cursor: pointer;
-  }
-
-  .article-author {
-    font-size: 1em;
-    color: #666666;
-    margin: 0;
-    margin-bottom: 3px;
-    font-weight: lighter;
-  }
-
-  .article-header-container {
-    display: flex;
-  }
-
-  .article-footer {
-    display: flex;
-    margin-top: 2em;
-    justify-content: flex-end;
-  }
-
-  .article-icon-container {
-    color: #666666;
-    margin: 0;
-    height: auto;
-    font-size: 0.9em;
-    padding-left: .5em;
-  }
-
-  #nav-links a.active {
-    color: #F4ACB7
-  }
-
-  .pink {
-    color: #F4ACB7;
-  }
-
-  #landing-desc {
-    margin: 0;
-  }
-
-  .page-container h1 {
-    margin: 0;
-  }
-
-  .blog-card {
-    min-width: 275px;
-    margin: 2em;
-    font-family: 'Lora', serif;
-  }
-
-  .blog-card a {
-        /*font-family: 'Montserrat', sans-serif;*/
-
-    color: black;
-  }
-
-  .blog-tags {
-    margin-bottom: 12px
-  }
-
-  .blog-button {
-    background: #F4ACB7;
-    color: white;
-  }
 /* PHONES / IPAD*/
 @media only screen and (max-width: 768px) {
   #sm-greeting {
@@ -254,11 +67,6 @@ body {
 
   .overflow-container {
     height: 90vh;
-    margin-top: 1.5em;
-  }
-
-  .blog-card {
-    margin: 1em;
   }
 }
 

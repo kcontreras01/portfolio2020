@@ -1,10 +1,10 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
-import Nav from './components/Nav';
-import Landing from './components/Landing';
-import About from './components/About';
-import Blog from './components/Blog';
+import Nav from './components/nav/Nav';
+import Landing from './components/landing/Landing';
+import About from './components/about/About';
+import Blog from './components/blog/Blog';
 
 function App() {
   return (

@@ -15,6 +15,3 @@ const Landing = () => {
 }
 
 export default Landing
-
-// <h1>Hi <span role="img" aria-label="wave">&#128075;</span> I'm <span className="pink">Kiara</span></h1>
-// <p id="landing-desc">Plant Mom / Cat Lover / Green Tea Witch</p>

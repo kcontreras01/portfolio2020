@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import BlogCard from './BlogCard';
+import './blog.css';
 
 export default class Blog extends Component {
 	constructor(props) {
@@ -24,7 +25,7 @@ export default class Blog extends Component {
 			<React.Fragment>
 				<div className="overflow-container">
 					{this.state.articles.map(article => (
-						<div className="primary-sticky-nav" key={article.id} className="fade-in">
+						<div key={article.id} className="fade-in">
 							<BlogCard article={article}/>
 						</div>
 					))}

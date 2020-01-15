@@ -1,5 +1,6 @@
 import React from "react";
-import Contact from './Contact';
+import Contact from '../contact/Contact';
+import './about.css';
 
 const About = () => {
 	return (
@@ -20,6 +21,7 @@ const About = () => {
 					alt="Nano Hackers Academy site"
 					target="_blank"
 					rel="noopener noreferrer"
+					className="purple"
 				>
 					Nano Hackers Academy
 				</a>
@@ -30,6 +32,7 @@ const About = () => {
 					alt="Brooklyn Animal Action site"
 					target="_blank"
 					rel="noopener noreferrer"
+					className="purple"
 				>
 					Brooklyn Animal Action
 				</a>
@@ -45,6 +48,7 @@ const About = () => {
 					alt="repeat offenders quartet site"
 					target="_blank"
 					rel="noopener noreferrer"
+					className="purple"
 				>
 					Repeat Offenders
 				</a>
