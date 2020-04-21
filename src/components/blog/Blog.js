@@ -25,7 +25,7 @@ export default class Blog extends Component {
 			<React.Fragment>
 				<div className="overflow-container">
 					{this.state.articles.map(article => (
-						<div key={article.id} className="fade-in">
+						<div key={article.id} className="fade-in card">
 							<BlogCard article={article}/>
 						</div>
 					))}

@@ -16,3 +16,8 @@
   background: #8a2666;
   color: white;
 }
+
+.card {
+  max-width: 80%;
+  margin: auto;
+}

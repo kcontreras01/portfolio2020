@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faDev, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faDev, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './contact.css';
 
@@ -25,11 +25,11 @@ export default class Contact extends Component {
 					alt  : "dev.to",
 					icon : faDev
 				},
-				{
-					href : "https://twitter.com/kiarathedev",
-					alt  : "twitter",
-					icon : faTwitter
-				},
+				// {
+				// 	href : "https://twitter.com/kiarathedev",
+				// 	alt  : "twitter",
+				// 	icon : faTwitter
+				// },
 				{
 					href : "https://www.linkedin.com/in/kiaracontreras/",
 					alt  : "linkedin",
