@@ -1,12 +1,11 @@
 import React from "react";
 import Contact from '../contact/Contact';
 import './about.css';
-import headshot from './me.jpeg';
+// import headshot from './me.jpeg';
 
 const About = () => {
 	return (
 		<div className="about-container overflow-container fade-in">
-			<img alt="headshot" src={headshot}/>
 			
 			<p>
 				Kiara Contreras is a Frontend Developer with a background in technology, 
