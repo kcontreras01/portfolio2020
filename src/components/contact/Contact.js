@@ -11,7 +11,7 @@ export default class Contact extends Component {
 		this.state = {
 			contactLinks: [
 				{
-					href : "mailto:kiara.p.contreras@gmail.com",
+					href : "mailto:kiaracontreras@pm.me",
 					alt  : "email",
 					icon : faEnvelope
 				},
